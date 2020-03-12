@@ -10,6 +10,7 @@ class _MessageComposeState extends State<MessageCompose> {
   String name = '';
   String username = '';
   String email = '';
+  String address;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
